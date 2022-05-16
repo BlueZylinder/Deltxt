@@ -1,0 +1,38 @@
+Last step 
+This may look complicated but its simple once you understand it     (i think, i dont really know) / also this code was written in german but it should still work
+Starting at line 12 
+
+
+
+
+
+
+
+
+let text = document.querySelector("#text-holder p").innerHTML;
+
+// let maximal_words allowes you to select how many words you want to display!
+let maximal_words = 20
+// text = text.replace replaces unwated line breaks remove if needed
+text = text.replace('\n', ' ');
+
+
+
+
+console.log(text.length);
+console.log(text[text.length - 1]);
+
+
+let wort_zaehler = 0;
+let letzte_leerzeile = 0
+for(let zaehler = 0; wort_zaehler < maximal_words ; zaehler = zaehler + 1) {
+  if(text[zaehler] == " ") {
+    wort_zaehler = wort_zaehler + 1; // wort_zaehler++
+    letzte_leerzeile = zaehler;
+  } 
+  console.log(zaehler);
+  
+}
+
+let result = text.slice(0,letzte_leerzeile); // (4,4)
+document.querySelector("#text-holder p").innerHTML = result //+ '...';

@@ -1,0 +1,14 @@
+Step 1 The HTML
+Make the text 
+
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+
+Now wrap it 
+
+<div id="text-holder">
+<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+</div>
+
+Thats it for HTML 
+Now goto Step 2 
+Found in GitHUB

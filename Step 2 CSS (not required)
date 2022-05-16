@@ -1,0 +1,41 @@
+Step 2 CSS (not required)
+
+
+1. Add a color to your text so it looks better!
+  #text-holder {
+  color: blue;
+}
+
+
+2. Add the Width you want your text to display to have!
+#text-holder {
+  color: brown;
+  width:50%;
+}
+
+
+3. Now add the Text size!
+#text-holder {
+  color: brown;
+  width:50%;
+  font-size:15px;
+}
+
+
+4. Now add the Font to make your text more stylish!
+#text-holder {
+  color: brown;
+  width:50%;
+  font-size:15px;
+  font-family:'Courier New';
+}
+
+
+5. Now add the background color!
+#text-holder {
+  color: brown;
+  width:50%;
+  font-size:15px;
+  font-family:'Courier New';
+  background: #f9f9f9;
+}
